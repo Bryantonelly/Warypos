@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Warypos</title>
+</head>
+<body>
+  <div class="frame">
+    <div class="header">
+      <img src="img/logo.png" alt="logo">
+    </div>
+    <div class="content">
+      <p class="title">Arqueo de caja</p>
+      <div class="container-arqueo-t">
+        <p class="title-arqueo">Resumen Sistema de venta</p>
+        <p class="title-arqueo">Resumen general manual</p>
+        <p class="title-arqueo">Diferencia</p>
+      </div>
+      <div class="container-arqueo">
+        <div class="input-light shadow">
+          <p class="text-input">Tarjeta</p>
+          <input type="text" class="light">
+        </div>
+        <p class="text-operation">-</p>
+        <div class="input-light shadow">
+          <p class="text-input">Transferencia</p>
+          <input type="text" class="light">
+        </div>
+        <p class="text-operation">=</p>
+        <div class="input-light shadow">
+          <p class="text-input">Yape</p>
+          <input type="text" class="light">
+        </div>
+      </div>
+
+      <div class="container-arqueo">
+        <div class="input-light shadow">
+          <p class="text-input">Tarjeta</p>
+          <input type="text" class="light">
+        </div>
+        <p class="text-operation">-</p>
+        <div class="input-light shadow">
+          <p class="text-input">Transferencia</p>
+          <input type="text" class="light">
+        </div>
+        <p class="text-operation">=</p>
+        <div class="input-light shadow">
+          <p class="text-input">Yape</p>
+          <input type="text" class="light">
+        </div>
+      </div>
+
+      <div class="container-arqueo">
+        <input type="text" class="solid shadow danger">
+        <p class="text-operation">  </p>
+        <input type="text" class="solid shadow danger">
+        <p class="text-operation">  </p>
+        <input type="text" class="solid shadow danger">
+      </div>
+
+      <div class="container-text">
+        <p class="subtitle">Dif Billete</p>
+        <p class="text-content">
+          Si el monto de la diferencia es mayor positivo, revisar diferencia tarjeta. caso contrario hay excedente.
+        </p>
+
+        <p class="subtitle">Dif Tarjeta</p>
+        <p class="text-content">
+          Si el monto de la tarjeta es negativo o igual al monto positivo de billeteno se boleteo ventas con tarjeta, con posible notificación de sunat.
+        </p>
+      </div>
+
+      <div class="container-check">
+        <label class="text-content">
+          <input type="checkbox" name="" id="">
+          La informacion que reporto es totalmente transparente y legitima, repetando los procesos comercial. 
+        </label>
+      </div>
+      
+      <div class="button-container">
+        <div class="btn-right">
+          <button class="btn-light"><img src="./icon/Icon.svg" alt="delete"> Eliminar</button>
+        </div>
+        <div class="btn-left">
+          <button class="success">Siguiente</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer">
+      <a class="text-help" href="/">¿Necesitas ayuda?</a>
+    </div>
+  </div>
+</body>
+</html>
